@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code Review</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;600&family=Raleway:wght@100;300;500&family=Zen+Kaku+Gothic+New:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+      <div>
+          <h1>The Code Review</h1>
+      </div>
+  </header>
+
+<form>
+  <div class="container">
+  <section class="intro">
+       <h2>Signup For Our Newsletter</h2>
+       <p id="intro-p">Get the latest news on how your code is doing right in your inbox</p>
+   </section>
+<hr>
+
+
+<fieldset class="contact-info">
+
+  <legend class="title">Contact Information</legend>
+
+  <div class="input-box">
+    <label for="name">Full Name:</label>
+    <input type="text"  id="name"  name="user_name" class="cihover" placeholder="Required">
+  </div>
+
+  <div class="input-box">
+    <label for="mail">Email:</label>
+    <input type="email"  id="mail"  name="user_email" class="cihover" placeholder="Required">
+  </div>
+
+    <div class="input-box">
+       <label for="tel">Phone Number</label>
+       <input type="tel" name="user-tel" id="tel" class="cihover" placeholder="+(44)">
+   </div>
+
+   <div class="input-box">
+       <label for="address1">Street Address</label>
+       <input type="text" name="user-address1" id="address1" class="cihover" placeholder="First Line of Your Address ">
+   </div>
+
+   <div class="input-box">
+       <label for="address2">City</label>
+       <input type="text" name="user-address2" id="address2" class="cihover" placeholder="E.g London">
+  </div>
+
+<div class="row">
+  <div class="input-box">
+        <label for="region">Region</label>
+        <select name="user_region" id="region" class="cihover">
+            <option value="England">Select Region</option>
+            <option value="England">England</option>
+            <option value="Scotland">Scotland</option>
+            <option value="Scotland">Ireland</option>
+            <option value="Wales">Wales</option>
+        </select>
+</div>
+
+    <div class="input-box">
+        <label for="postcode">Post Code</label>
+        <input type="text" name="user-postcode" id="postcode" class="cihover" placeholder="Required"><br>
+    </div>
+</div>
+
+</fieldset>
+
+<hr>
+<fieldset class="newsletter">
+    <legend class="title">Newsletter</legend>
+
+    <label class="para"> Select the newsletter you would like to receive</label>
+
+    <div class="group">
+    <input type="checkbox" id="html" value="html_news" name="user_newsletter"><label class="userQ" for="html">HTML News</label><br>
+    </div>
+
+
+    <div class="group">
+    <input type="checkbox" name="user_newsletter" id="css_news" value="user_newsletter"><label class="userQ" for="css_news">CSS News</label><br>
+    </div>
+
+    <div class="group">
+    <input type="checkbox" name="user_newsletter" id="jsscript_news" value="receive_newsletter"><label class="userQ" for="jsscript_news">Javascript News</label><br>
+  </div>
+        <p class="para">Newsletter format</p>
+
+        <div class="group">
+        <input type="radio" id="html_text" value="html" name="user_newsletter"> <label class="userQ"  for="html">HTML</label>
+        </div>
+
+        <div class="group">
+        <input type="radio" name="user_newsletter" id="plain_text" value="receive_newsletter"><label class="userQ"  for="plain_text">Plain text</label><br>
+        </div>
+    <div class="textarea">
+    <label for="other_topics" id="p2">Other coding languages you'd like to hear about</label>
+    <textarea name="user-newsletter" id="other_topics" class="cihover" placeholder="I would like to learn..."></textarea>
+</div>
+</fieldset>
+
+<fieldset>
+    <button type="submit" id="button" value="sign_up">Sign Up</button>
+</fieldset>
+
+
+
+</div>
+</form>
+<footer>
+    <p id="footer">Copyright The Code Review</p>
+</footer>
+
+
+     </body>
+     </html>

@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    color: #002A53;
+}
+body {
+
+background-color: pink;
+}
+header {
+    text-align: center;
+    background: #002A53;
+    color: white;
+    padding: 20px;
+
+}
+.intro {
+    margin: 3em 2em 2em 2em;
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+h1 {
+  color: #ffff;
+}
+
+hr {
+    height: 6px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #002A53;
+}
+
+.container {
+
+  max-width: 70%;
+  margin: auto;
+
+}
+
+label {
+display: block;
+margin-top: 1em;
+margin-bottom: 10px;
+}
+
+textarea, button {
+     width: 100%;
+ }
+
+ legend {
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 20px 0;
+  }
+
+.input-box,
+ #other_topics {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 20px;
+ }
+
+#name,
+#mail,
+#tel,
+#address1,
+#address2,
+#region,
+#postcode,
+#other_topics
+ {
+    padding: 20px;
+    background: rgba(0, 42, 83, 0.3);
+    border-radius: 5px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.cihover:hover {
+    border: 4px solid #002A53;
+    box-shadow: 0 0 10px #000000;
+}
+
+#postcode {
+    width: 50%;
+}
+
+input::placeholder {
+    font-weight: 600;
+}
+
+
+textarea::placeholder {
+    text-align: justify;
+    font-weight: 600;
+}
+#html_news,
+#css_news,
+#jsscript_news,
+#html,
+#plain_text {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+
+.newsletter {
+    padding: 5px;
+    line-height: 2;
+}
+
+.para {
+padding-bottom: 1em;
+}
+
+#p1 {
+    margin-bottom: 10px;
+}
+
+.group {
+display: flex;
+flex-direction: row;
+
+}
+
+.userQ {
+  margin: -9px 0 0 0;
+}
+
+
+
+input {
+justify-content: center;
+
+}
+
+#other_topics {
+    padding: 15px 0 4em 15px;
+}
+
+button {
+    padding: 30px;
+    border-radius: 5px;
+    background: #002A53;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-style: none;
+    margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+    font-style: italic;
+    margin: 20px 0 40px 0;
+}
+
+#button:hover {
+border: 1.5px solid #ffff;
+box-shadow: 0 0 10px #000000;
+
+}
+
+input:focus,
+select {
+    transition: all .5s linear;
+}
+
+
+fieldset {
+    border: none;
+    margin-top: 20px;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    legend {
+        margin: 20px 0;
+    }
+
+    select {
+  margin-bottom: 0;
+}
+
+.input-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .input-box label {
+        flex-basis: 20%;
+    }
+
+    .input-box input,
+    .input-box select {
+     flex-basis: 80%;
+ }
+
+ #postcode {
+       max-width: 25%;
+   }
+
+   header {
+     margin-bottom: 50px;
+ }
+}
