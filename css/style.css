@@ -42,12 +42,16 @@ hr {
 
 label {
 display: block;
-margin-top: 1em;
-margin-bottom: 10px;
+/* margin-top: 1em;
+margin-bottom: 10px;  STEP 5  */
 }
 
 textarea, button {
      width: 100%;
+ }
+
+ #p2 {
+  margin-top: 20px;
  }
 
  legend {
@@ -95,7 +99,9 @@ input::placeholder {
 textarea::placeholder {
     text-align: justify;
     font-weight: 600;
-}
+
+  }
+/*
 #html_news,
 #css_news,
 #jsscript_news,
@@ -103,7 +109,7 @@ textarea::placeholder {
 #plain_text {
     margin-right: 5px;
     margin-bottom: 10px;
-}
+} STEP 3 */
 
 
 .newsletter {
@@ -113,6 +119,7 @@ textarea::placeholder {
 
 .para {
 padding-bottom: 1em;
+margin-top: 20px;  /*STEP 6*/
 }
 
 #p1 {
@@ -122,17 +129,18 @@ padding-bottom: 1em;
 .group {
 display: flex;
 flex-direction: row;
-
+align-items: center;  /*STEP 2*/
 }
 
-.userQ {
+/* .userQ {
   margin: -9px 0 0 0;
 }
-
+STEP 1 */
 
 
 input {
 justify-content: center;
+margin-right: 10px; /* STEP 4*/
 
 }
 
